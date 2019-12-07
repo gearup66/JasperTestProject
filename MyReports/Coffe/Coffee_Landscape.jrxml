@@ -19,7 +19,7 @@
 	</style>
 	<queryString language="SQL">
 		<![CDATA[SELECT *
-FROM "JOBS" where min_salary >=5000]]>
+FROM "JOBS" where min_salary >=5500 order by min_salary asc]]>
 	</queryString>
 	<field name="JOB_ID" class="java.lang.String">
 		<property name="com.jaspersoft.studio.field.label" value="JOB_ID"/>
